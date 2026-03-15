@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Heebo", "Assistant", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  --color-sky-blue: #6aafe6;
+  --color-sky-blue-hover: #5599d4;
+  --color-deep-navy: #2b3d4f;
+  --color-deep-navy-hover: #3a5068;
+  --color-warm-white: #f5f5f3;
+  --color-light-gray: #e8e8e4;
+  --color-medium-gray: #8a8f94;
+  --color-soft-teal: #4db8a4;
+  --color-whatsapp: #25d366;
+  
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-deep-navy);
+  direction: rtl;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+@media (min-width: 680px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (min-width: 680px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (min-width: 680px) {
+  h3 {
+    font-size: 22px;
+  }
+}
+
+p, .body-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (min-width: 680px) {
+  p, .body-text {
+    font-size: 17px;
+  }
+}
+
+.small-text {
+  font-size: 13px;
+  font-weight: 400;
+}
+@media (min-width: 680px) {
+  .small-text {
+    font-size: 14px;
+  }
+}
