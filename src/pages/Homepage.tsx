@@ -43,29 +43,29 @@ export function Homepage() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
-            backgroundImage: "url('https://ofer-shani.com/wp-content/uploads/2024/07/ofer-shani-hero-bg.jpg')",
+            backgroundImage: "url('https://ofer-shani.com/Gemini_Generated_Image_4gyx1s4gyx1s4gyx.png')",
           }}
         />
-        <div className="absolute inset-0 bg-deep-navy/40 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-b from-sky-900/25 via-transparent to-black/15" />
         
         <div className="relative z-10 max-w-[1000px] mx-auto w-full">
-          <PromoBadge className="bg-white/20 text-white border-white/30 backdrop-blur-md mb-6">
+          <PromoBadge className="bg-soft-teal/10 text-white border-soft-teal/20 backdrop-blur-sm mb-6">
             שיחת היכרות ללא עלות
           </PromoBadge>
-          <h1 className="text-white mb-6 text-5xl md:text-7xl font-bold tracking-tight drop-shadow-sm">
+          <h1 className="text-white mb-6 text-5xl md:text-7xl font-bold tracking-tight">
             הכוונה מקצועית.<br />גישה אישית.
           </h1>
-          <p className="text-[20px] md:text-[24px] font-medium text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed drop-shadow-sm">
+          <p className="text-[20px] md:text-[24px] font-medium text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
             קואצ'ינג קריירה לאנשים פרטיים וייעוץ ניהולי לחברות, מבוסס על מעל 25 שנות ניסיון מעשי בהובלת טכנולוגיה.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="primary-blue" href="/coaching" className="w-full sm:w-auto text-lg px-8 py-4 shadow-lg">
+            <Button variant="primary-blue" href="/coaching" className="w-full sm:w-auto text-lg px-8 py-4">
               לאנשים פרטיים
             </Button>
             <Button 
               variant="outline" 
               href="/management" 
-              className="w-full sm:w-auto text-lg px-8 py-4 bg-white/10 text-white border-white/40 backdrop-blur-sm hover:bg-white/20 transition-all shadow-lg"
+              className="w-full sm:w-auto text-lg px-8 py-4 bg-white text-deep-navy border-deep-navy/20 hover:bg-gray-50 transition-colors"
             >
               לחברות וארגונים
             </Button>
@@ -161,7 +161,7 @@ export function Homepage() {
       <section className="relative py-12 md:py-20 px-6">
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/input_file_0.png')" }}
+          style={{ backgroundImage: "url('/input_file_1.png')" }}
         />
         <div className="absolute inset-0 z-0 bg-white/70" />
         
